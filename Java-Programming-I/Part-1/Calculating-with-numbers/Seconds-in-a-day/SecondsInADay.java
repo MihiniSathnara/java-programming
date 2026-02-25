@@ -10,5 +10,6 @@ public class SecondsInADay{
 
         int noOfSeconds = noOfDays * 24 * 60 * 60;
         System.out.println(noOfDays +" in seconds: " +noOfSeconds);
+        scanner.close();
     }
 }

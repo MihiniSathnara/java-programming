@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AdditionFormula {
+public class AverageOfTwoNumbers {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
@@ -10,7 +10,8 @@ public class AdditionFormula {
         System.out.println("Give the second number: ");
         int second = Integer.valueOf(scanner.nextLine());
 
-        System.out.println(first +" + " +second +" = " +(first+second));
+        double average = 1.0 * (first + second) / 2;
+        System.out.println("The average is " +average);
         scanner.close();
     }
 }
